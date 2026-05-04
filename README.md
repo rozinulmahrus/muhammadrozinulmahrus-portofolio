@@ -1,16 +1,53 @@
-# React + Vite
+# Muhammad Rozinul Mahrus - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portofolio pribadi *single-page* yang dirancang dengan pendekatan **Mobile-First** dan berfokus pada **Semantic HTML5** serta aksesibilitas. Proyek ini dibangun untuk menampilkan kemampuan *Front-End* dengan interaksi UI yang menarik, ditujukan khusus untuk menarik perhatian *Startup* dan *Corporate Tech Lead*.
 
-Currently, two official plugins are available:
+## ✨ Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Desain "Dark Mode Minimalist"**: Tampilan elegan dengan aksen warna Emerald/Cyan khas developer.
+- **Elemen Interaktif (The Code Toggle Card)**: Fitur "View as Code" bergaya *3D flip* yang menunjukkan identitas sebagai seorang *developer* secara unik.
+- **Responsive & Mobile-First**: Dioptimalkan dengan sempurna untuk tampilan *mobile*, tablet, dan *desktop*, lengkap dengan *hamburger menu* yang responsif.
+- **Semantic HTML5**: Struktur kode menggunakan *tags* semantik (seperti `<nav>`, `<header>`, `<main>`, `<section>`, `<article>`, `<footer>`) tanpa "*div soup*" demi memenuhi standar aksesibilitas dan SEO.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Typography**: [Google Fonts](https://fonts.google.com/) (Inter & Plus Jakarta Sans)
 
-## Expanding the ESLint configuration
+## 🚀 Cara Instalasi & Menjalankan Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini secara lokal:
+
+### Prasyarat
+Pastikan komputer kamu sudah terinstal [Node.js](https://nodejs.org/) (versi LTS direkomendasikan).
+
+### Langkah-langkah
+
+1. **Buka Terminal/Command Prompt** dan pastikan kamu berada di dalam direktori proyek ini:
+   ```bash
+   # contoh
+   cd path/to/muhammadrozinulmahrus-portofolio
+   ```
+
+2. **Instal dependensi** yang dibutuhkan:
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan server development**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Buka di Browser**:
+   Buka URL lokal yang muncul di terminal (biasanya `http://localhost:5173`) untuk melihat aplikasi berjalan secara langsung.
+
+## 📦 Build untuk Production
+
+Untuk melakukan *build* file proyek yang siap di-*deploy*, jalankan:
+```bash
+npm run build
+```
+Hasil optimasi kode akan di-*generate* di dalam folder `dist/`. Kamu bisa *deploy* folder ini secara gratis ke layanan hosting seperti GitHub Pages, Vercel, atau Netlify.
+
